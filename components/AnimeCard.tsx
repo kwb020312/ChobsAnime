@@ -18,6 +18,7 @@ interface Prop {
 }
 
 function AnimeCard({ anime }: Prop) {
+  console.log(anime.name);
   return (
     <div className="max-w-sm rounded relative w-full">
       <div className="relative w-full h-[37vh]">
