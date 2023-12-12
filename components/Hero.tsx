@@ -11,9 +11,8 @@ function Hero() {
           height={96}
           className="object-contain"
         />
-        <h1 className="sm:text-6xl text-5xl text-white lg:max-w-lg font-bold leading-[120%]">
-          Explore The <span className="red-gradient">Diverse Realms</span> of
-          Anime Magic
+        <h1 className="sm:text-6xl text-5xl text-white lg:max-w-lg font-bold leading-[120%] break-keep">
+          연휴동안 볼만한 <span className="red-gradient">애니메이션</span> 모음
         </h1>
       </div>
       <div className="lg:flex-1 relative w-full h-[50vh] justify-center">
